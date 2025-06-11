@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #c8e6c9, #a7c7e7);
+    /* background: linear-gradient(135deg, #fbc2eb, #a6c1ee); */
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .clinic-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .clinic-header {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 40px;
+    color: #3c546d;
+    /* color: #2c3e50; */
+    font-weight: bold;
+  }
+  
+  .clinic-search-form {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    /* background:rgba(255, 255, 255, 0.596); */
+    background:transparent;
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    box-shadow: none; 
+  }
+  
+  .clinic-input {
+    padding: 12px;
+    width: 220px;
+    min-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background: white;
+  }
+  
+  .clinic-button {
+    padding: 12px 22px;
+    background-color: #f1c40f;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .clinic-button:hover {
+    background-color: #f39c12;
+  }
+  
+  .clinic-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+  }
+  
+  .clinic-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .clinic-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .clinic-card-name {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .clinic-card-button {
+    margin-top: 15px;
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .clinic-card-button:hover {
+    background-color: #27ae60;
+  }
+  
+  .clinic-booking-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .clinic-form-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .clinic-form-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .clinic-form-button:hover {
+    background-color: #2980b9 ;
+  }
+  
